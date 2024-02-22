@@ -8,7 +8,7 @@
 }
 
 body{
-   background-image: url('bg-mobile.png');
+   background-image: url('https://github.com/undeadskeleton/fylo-clone/blob/dab72db1c969cc4460c4731f81bc9f98aa58e078/images/bg-mobile.png');
    background-size: cover;
    background-repeat: no-repeat;
    display:flex;
@@ -24,7 +24,7 @@ body{
 
 @media (min-width:1440px){
    body{
-   background-image: url('bg-desktop.png');
+   background-image: url('https://github.com/undeadskeleton/fylo-clone/blob/dab72db1c969cc4460c4731f81bc9f98aa58e078/images/bg-desktop.png');
    background-size: contain;
    background-repeat: no-repeat;
    background-position: bottom;
