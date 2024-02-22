@@ -1,0 +1,127 @@
+.bottom{
+   width:100%;
+   height:10rem;
+   margin-inline: auto;
+   background-color:var(--neutral-dark-blue);
+   border-radius: 2%;
+   color:var(--neutral-grayish-blue);
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: start;
+   position:relative;
+   padding:1.5rem 0;
+}
+
+@media (min-width:1440px){
+   .bottom{
+      padding:0;
+      margin:0;
+      width:80%;
+      border-radius: 20px;
+      justify-content: center;
+   }
+}
+.bottom >:nth-of-type(1){
+   font-size:0.8rem;
+   word-spacing: 0.1rem;
+   margin-bottom:1.1rem;
+}
+
+@media(min-width:1440px){
+   .bottom >:nth-of-type(1){
+      font-size:1.2rem;
+      margin-right: 7rem;
+   }
+}
+.outside{
+   background-color: var(--neutral-pale-blue);
+   font-weight:500;
+   width:54%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute ;
+   gap:0.7rem;
+   bottom:-12.5%;
+   padding:0.7rem;
+   border-radius:10px;
+}
+
+@media (min-width:1440px){
+   .outside{
+      width:30%;
+      height:5rem;
+      padding:0.5rem;
+      border-right:20px solid var(--neutral-pale-blue);
+      border-bottom:20px solid var(--neutral-dark-blue);
+      border-radius:20px 20px 0 20px ;
+      gap:0.5rem;
+      top:-20%;
+      right:9%;
+      bottom:auto;
+   }
+   
+  
+}
+.outside span{
+   font-size:2.2rem;
+   font-weight: 600;
+   color:var(--neutral-very-dark-blue);
+}
+@media (min-width:1440px){
+   .outside span{
+   font-weight: 800;
+   }
+}
+.outside p{
+   font-size:0.8rem;
+   text-transform: uppercase;
+   color:var(--neutral-dark-blue);
+}
+
+.progressbar{
+   width:80%;
+   height:1rem;
+   background-color: var(--neutral-very-dark-blue);
+   border-radius: 30px;
+   display:flex;
+   align-items:center;
+}
+
+.progress{
+   margin-left:0.2rem;
+   width:75%;
+   height:80%;
+   border-radius: 30px;
+   background: linear-gradient( 
+   hsl(6, 100%, 80%),
+   hsl(335, 100%, 65%)
+   );
+   padding:0.1rem;
+   position:relative;
+}
+
+.circle{
+   width:0.6rem;
+   height:0.6rem;
+   border-radius: 50%;
+   background-color: #FBFBFF;
+   position:absolute;
+   right:1%;
+}
+.limit{
+   margin:0.7rem 0 0 0;
+   font-size:0.8rem;
+}
+.limit > span{
+   position: absolute ;
+}
+
+.limit > :first-child{
+   left:10%;
+}
+
+.limit > :last-child{
+   right:10%;
+}
